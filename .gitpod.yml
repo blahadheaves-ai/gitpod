@@ -5,4 +5,4 @@ tasks:
   - name: Setup Rust
     init: |
       rustup target add wasm32-unknown-unknown
-      cargo install wasmtime-cli
+      cargo install wasmtime-cli 
