@@ -1,0 +1,15 @@
+fn main() {
+    // 1. Allocate isolated memory region for the WASM sandbox heap
+    let mut sandbox_heap = vec![0u8; 1024 * 1024]; // 1 MB heap allocation
+
+    // Simulate work inside the sandbox...
+    println!("Engine running in deterministic zero-drift state...");
+
+    // 2. Out-of-band termination signal / Sovereign key trigger received [cite: 45, 127]
+    println!("Self-keyed teardown signal verified. Triggering Thermite Purge...");
+
+    // 3. Initiate non-recoverable memory purge and process exit
+    ThermiteTeardown::trigger(&mut sandbox_heap, 0);
+
+    // Any code past this point is completely unreachable
+}
