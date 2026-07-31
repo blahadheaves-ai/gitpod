@@ -1,1 +1,8 @@
-cargo install wasmtime-cli --locked
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - name: Setup Rust
+    init: |
+      rustup target add wasm32-unknown-unknown
+      cargo install wasmtime-cli --lockedcargo install wasmtime-cli --locked
