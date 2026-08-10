@@ -1,8 +1,37 @@
 image:
   file: .gitpod.Dockerfile
 
+# Hardware provisioning
+resources:
+  requests:
+    memory: 4Gi
+    cpu: 2
+
+# Port rules
+ports:
+  - port: 3000
+    onOpen: open-browser
+    visibility: public
+  - port: 8080
+    onOpen: notify
+    visibility: private
+  - port: 5432
+    onOpen: ignore
+    visibility: private
+
+# Workspace setup
+workspaceLocation: /workspace
+
+# Tasks
 tasks:
   - name: Setup Rust
     init: |
       rustup target add wasm32-unknown-unknown
       cargo install wasmtime-cli --locked
+      echo "✓ Rust environment ready"
+
+# VS Code extensions
+vscode:
+  extensions:
+    - rust-lang.rust-analyzer
+    - ms-vscode.cpptools
