@@ -1,8 +1,1 @@
-DISTRIBUTION STATEMENT (placeholder)
------------------------------------
-Insert the authoritative DoD/DARPA distribution statement here.
-
-Example (do NOT insert without approval):
-Distribution Statement A — Approved for public release; distribution is unlimited.
-
-Note: Only a contracting officer or DARPA program manager may apply an official distribution statement. Replace this file with the final authorized text before publishing.
+The Master Combine is ....  This is out distribution statement
