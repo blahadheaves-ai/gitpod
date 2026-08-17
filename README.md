@@ -5,7 +5,7 @@ This repository (blahadheaves-ai/gitpod) is released for public distribution und
 This material is based upon work supported by the U.S. Defense Advanced Research Projects Agency (DARPA) under Contract/Agreement KRIS PARK. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of DARPA.
 
 ## Distribution statement
-<INSERT DISTRIBUTION STATEMENT HERE — e.g., "Distribution Statement A — Approved for public release; distribution is unlimited.">
+The Master Combine is ....  This is out distribution statement
 
 > Note: Only a contracting officer or DARPA program manager may apply an official distribution statement. Replace this with the final authorized text before publishing.
 
@@ -26,10 +26,10 @@ We publish a Software Bill of Materials (SBOM) with each release. See SBOM.md or
 - `cargo-about generate` for Rust dependency notices
 
 ## Reporting vulnerabilities
-If you find a security issue, please contact: <SECURITY_CONTACT_EMAIL> and follow SECURITY.md.
+If you find a security issue, please contact: kriskre8r@proton.me and follow SECURITY.md.
 
 ## Third-party components & notices
 See THIRD_PARTY_NOTICES.md for a list of third-party dependencies and their licenses.
 
 ## Contact
-Maintainer: <NAME/ORG> (<email>)
+Maintainer: KRIS PARK (kriskre8r@proton.me)
