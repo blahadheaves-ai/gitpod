@@ -2,7 +2,7 @@
 This repository (blahadheaves-ai/gitpod) is released for public distribution under the terms below.
 
 ## Acknowledgement
-This material is based upon work supported by the U.S. Defense Advanced Research Projects Agency (DARPA) under Contract/Agreement <CONTRACT/ID HERE>. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of DARPA.
+This material is based upon work supported by the U.S. Defense Advanced Research Projects Agency (DARPA) under Contract/Agreement KRIS PARK. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of DARPA.
 
 ## Distribution statement
 <INSERT DISTRIBUTION STATEMENT HERE — e.g., "Distribution Statement A — Approved for public release; distribution is unlimited.">
